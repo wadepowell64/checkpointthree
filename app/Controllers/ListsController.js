@@ -8,7 +8,6 @@ function _draw() {
   document.getElementById("lists").innerHTML = template
 }
 
-
 export default class ListsController {
   constructor() {
     _draw();
